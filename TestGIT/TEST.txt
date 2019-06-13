@@ -1,0 +1,1 @@
+This file is only for test to check if it is possible to push some files on GIT.
