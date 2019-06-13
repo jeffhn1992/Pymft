@@ -1,0 +1,2 @@
+This is the second file for test for commit and push on GIT.
+This text was added to check the changes on the 2nd commit.
