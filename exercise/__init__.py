@@ -1,0 +1,6 @@
+inputWeight = input("Please input your weight")
+inputHeight = input("Please input your height")
+inputWeightInt = float(inputWeight)
+inputHeightInt = float(inputHeight)
+bmi = inputWeightInt / (inputHeightInt * inputHeightInt)
+print(bmi)
