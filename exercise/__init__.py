@@ -3,4 +3,12 @@ inputHeight = input("Please input your height")
 inputWeightInt = float(inputWeight)
 inputHeightInt = float(inputHeight)
 bmi = inputWeightInt / (inputHeightInt * inputHeightInt)
-print(bmi)
+if bmi <= 18:
+    print("Under Weight")
+elif bmi <= 25:
+    print("Normal")
+elif bmi <= 30:
+    print("Over Weight")
+elif bmi < 30:
+    print("Obese")
+
