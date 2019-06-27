@@ -10,7 +10,3 @@ while a<=b:
 
 print(sum_num)
 print(factorial_num)
-
-
-
-
