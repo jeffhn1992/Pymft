@@ -54,8 +54,8 @@ data = [
     296515.8125, 297355.09375, 298169.5
 ]
 duration = []
-T1 = 300
-T2 = 400
+T1 = 700
+T2 = 800
 special_events = 0
 
 for i in range(1, len(data)):
@@ -92,3 +92,11 @@ for i in range(0, len(duration_and_measure) - 2):
         special_events += 1
 
 print(special_events)
+
+joftesh= ""
+joftesh_list = []
+for i in range(0,len(duration)):
+    joftesh = str(duration[i]) + " " + str(duration_and_measure[i])
+    joftesh_list.append(joftesh)
+
+print(joftesh_list)
